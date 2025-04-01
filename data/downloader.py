@@ -145,13 +145,14 @@ def save_all_data_in_one_file():
     """
     Save the data in one file
     """
-    # yfinace returns the data with the columns in the format: ('Ticker', 'Attribute')
-    # we need to convert the columns to the format: 'Index - Attribute'
-    # where Index is the name of the index (e.g. IBOVESPA, Dow Jones, etc.)
-    # and Attribute is the name of the attribute (e.g. Open, Close, High, Low, Volume)
-    YFdata.columns = pd.MultiIndex.from_tuples(YFdata.columns)  
-    # convert the columns to the format: 'Index - Attribute'
-    YFdata.columns = [f"{symbols[i // 5][1]} - {col[0]}" for i, col in enumerate(YFdata.columns)]
+    # invert the order tuple of the columns
+    YFdata.columns = [col[::-1] for col in YFdata.columns]
+    # turn symbols into a map
+    symbols_map = {symbol[0]: symbol[1] for symbol in symbols}
+    # rename the columns to have the symbol name
+    YFdata.columns = [symbols_map[col[0]] + " - " + col[1] for col in YFdata.columns]
+    # print(YFdata.columns)
+    # print(YFdata.head())
     # save the data to a csv file in the 0 - asDownloaded/YahooFinance folder
     YFdata.to_csv("0 - asDownloaded/YahooFinance/_All Yahoo Finance Indicators_.csv", index=True)
 
