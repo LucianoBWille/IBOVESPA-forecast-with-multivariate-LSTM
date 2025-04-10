@@ -6,7 +6,7 @@ symbols = [
     ["^BVSP",       "IBOVESPA"],
     ["BRL=X",       "Dólar Câmbio"],
     ["^DJI",        "Dow Jones"],
-    ["^GSPC",       "S&P500"],
+    ["^GSPC",       "S&P 500"],
     ["^IXIC",       "Nasdaq"],
     ["000001.SS",   "Shanghai SE"],
     ["^N225",       "Nikkei"],
