@@ -10,7 +10,7 @@ Dado baixados do Yahoo Finance usando a bliblioteca YFinance do python e o símb
 Dados em arquivo CSV baixado do site do IBGE, que se encontra [neste link](https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9300-contas-nacionais-trimestrais.html?=&t=series-historicas).
 
 ### IPCA
-Dados em arquivo CSV baixado do site do IBGE, que se encontra [neste link](https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9258-indice-nacional-de-precos-ao-consumidor.html?=&t=series-historicas).
+Dados em arquivo CSV baixado do site do IBGE, que se encontra [neste link](https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html?=&t=series-historicas).
 
 ### INPC
 Dados em arquivo CSV baixado do site do IBGE, que se encontra [neste link](https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9258-indice-nacional-de-precos-ao-consumidor.html?=&t=series-historicas).
@@ -28,7 +28,7 @@ rows.forEach((row) => {
 });
 csv = data.map((row) => row.join("; ")).join("\n");
 ```
-O valor de da variável `csv` é então copiado para o arquivo `SELIC.csv`.
+O valor de da variável `csv` é então copiado para o arquivo `Selic.csv`.
 
 ### Câmbio dólar
 Dado baixados do Yahoo Finance usando a bliblioteca YFinance do python e o símbolo `BRL=X`
