@@ -1,0 +1,68 @@
+{
+    "EXPERIMENT_NUMBER": 1,
+    "SUB_EXPERIMENT_NUMBER": 7,
+    "MODEL_NAME": "Model_2",
+    "TRAINING_SIZE": 7602,
+    "VALIDATION_SIZE": 261,
+    "TESTING_SIZE": 129,
+    "RUN_MOMENT": "2025-04-14 20:38:04",
+    "INPUT_WINDOW_SIZE": 4,
+    "OUTPUT_WINDOW_SIZE": 1,
+    "BATCH_SIZE": 32,
+    "MAX_EPOCHS": 500,
+    "LEARNING_RATE": 0.01,
+    "PATIENCE": 10,
+    "RANDOM_SEED": 453,
+    "LOSS_FUNCTION": "MAE",
+    "COLUMNS_TO_USE": [
+        "IBOVESPA - Close",
+        "IBOVESPA - Close %"
+    ],
+    "COLUMN_TO_PREDICT": "IBOVESPA - Close",
+    "TRAINING_TIME": "0h:1m:29s:137ms",
+    "TRAINING_EPOCHS": 46,
+    "Metrics": {
+        "Train_Repeat": {
+            "Loss": null,
+            "MAE": 0.006005511619150639,
+            "MSE": 6.263021350605413e-05,
+            "MAPE": 0.7072149515151978,
+            "RMSE": 0.007913925684988499
+        },
+        "Validation_Repeat": {
+            "Loss": null,
+            "MAE": 0.0,
+            "MSE": 0.0,
+            "MAPE": 0.0,
+            "RMSE": 0.0
+        },
+        "Test_Repeat": {
+            "Loss": null,
+            "MAE": 0.006717351730912924,
+            "MSE": 7.532560994150117e-05,
+            "MAPE": 0.7215718626976013,
+            "RMSE": 0.008679032325744629
+        },
+        "Train": {
+            "Loss": 0.026269087567925453,
+            "MAE": 0.026269087567925453,
+            "MSE": 0.0012174868024885654,
+            "MAPE": 65.11846923828125,
+            "RMSE": 0.034892503172159195
+        },
+        "Validation": {
+            "Loss": 0.006769669242203236,
+            "MAE": 0.006769669242203236,
+            "MSE": 6.991247209953144e-05,
+            "MAPE": 0.7358711361885071,
+            "RMSE": 0.008361367508769035
+        },
+        "Test": {
+            "Loss": 0.007502379827201366,
+            "MAE": 0.007502379827201366,
+            "MSE": 9.492872777627781e-05,
+            "MAPE": 0.8219512701034546,
+            "RMSE": 0.009743137285113335
+        }
+    }
+}

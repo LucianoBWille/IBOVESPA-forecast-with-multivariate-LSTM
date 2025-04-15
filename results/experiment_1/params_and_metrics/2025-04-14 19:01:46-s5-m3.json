@@ -1,0 +1,68 @@
+{
+    "EXPERIMENT_NUMBER": 1,
+    "SUB_EXPERIMENT_NUMBER": 5,
+    "MODEL_NAME": "Model_3",
+    "TRAINING_SIZE": 7602,
+    "VALIDATION_SIZE": 261,
+    "TESTING_SIZE": 129,
+    "RUN_MOMENT": "2025-04-14 19:01:46",
+    "INPUT_WINDOW_SIZE": 4,
+    "OUTPUT_WINDOW_SIZE": 1,
+    "BATCH_SIZE": 32,
+    "MAX_EPOCHS": 500,
+    "LEARNING_RATE": 0.01,
+    "PATIENCE": 10,
+    "RANDOM_SEED": 509,
+    "LOSS_FUNCTION": "MAE",
+    "COLUMNS_TO_USE": [
+        "IBOVESPA - Close %",
+        "IBOVESPA - Spread %"
+    ],
+    "COLUMN_TO_PREDICT": "IBOVESPA - Close %",
+    "TRAINING_TIME": "0h:0m:49s:965ms",
+    "TRAINING_EPOCHS": 30,
+    "Metrics": {
+        "Train_Repeat": {
+            "Loss": null,
+            "MAE": 0.021894998848438263,
+            "MSE": 0.0007430388359352946,
+            "MAPE": 7.037374496459961,
+            "RMSE": 0.0272587388753891
+        },
+        "Validation_Repeat": {
+            "Loss": null,
+            "MAE": 0.0,
+            "MSE": 0.0,
+            "MAPE": 0.0,
+            "RMSE": 0.0
+        },
+        "Test_Repeat": {
+            "Loss": null,
+            "MAE": 0.01891194097697735,
+            "MSE": 0.00047591369366273284,
+            "MAPE": 5.887756824493408,
+            "RMSE": 0.021815447136759758
+        },
+        "Train": {
+            "Loss": 0.028764357790350914,
+            "MAE": 0.028764357790350914,
+            "MSE": 0.001841627643443644,
+            "MAPE": 42125.84375,
+            "RMSE": 0.04291418939828873
+        },
+        "Validation": {
+            "Loss": 0.012530696578323841,
+            "MAE": 0.012530696578323841,
+            "MSE": 0.0002559848071541637,
+            "MAPE": 3.86027455329895,
+            "RMSE": 0.015999525785446167
+        },
+        "Test": {
+            "Loss": 0.015071350149810314,
+            "MAE": 0.015071350149810314,
+            "MSE": 0.00042160393786616623,
+            "MAPE": 4.716404438018799,
+            "RMSE": 0.020532995462417603
+        }
+    }
+}

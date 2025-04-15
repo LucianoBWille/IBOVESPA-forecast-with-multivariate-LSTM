@@ -1,0 +1,69 @@
+{
+    "EXPERIMENT_NUMBER": 1,
+    "SUB_EXPERIMENT_NUMBER": 8,
+    "MODEL_NAME": "Model_3",
+    "TRAINING_SIZE": 7602,
+    "VALIDATION_SIZE": 261,
+    "TESTING_SIZE": 129,
+    "RUN_MOMENT": "2025-04-14 19:11:32",
+    "INPUT_WINDOW_SIZE": 4,
+    "OUTPUT_WINDOW_SIZE": 1,
+    "BATCH_SIZE": 32,
+    "MAX_EPOCHS": 500,
+    "LEARNING_RATE": 0.01,
+    "PATIENCE": 10,
+    "RANDOM_SEED": 509,
+    "LOSS_FUNCTION": "MAE",
+    "COLUMNS_TO_USE": [
+        "IBOVESPA - Close",
+        "IBOVESPA - Close %",
+        "IBOVESPA - Spread %"
+    ],
+    "COLUMN_TO_PREDICT": "IBOVESPA - Close",
+    "TRAINING_TIME": "0h:1m:38s:949ms",
+    "TRAINING_EPOCHS": 62,
+    "Metrics": {
+        "Train_Repeat": {
+            "Loss": null,
+            "MAE": 0.006005511619150639,
+            "MSE": 6.263021350605413e-05,
+            "MAPE": 0.7072149515151978,
+            "RMSE": 0.007913925684988499
+        },
+        "Validation_Repeat": {
+            "Loss": null,
+            "MAE": 0.0,
+            "MSE": 0.0,
+            "MAPE": 0.0,
+            "RMSE": 0.0
+        },
+        "Test_Repeat": {
+            "Loss": null,
+            "MAE": 0.006717351730912924,
+            "MSE": 7.532560994150117e-05,
+            "MAPE": 0.7215718626976013,
+            "RMSE": 0.008679032325744629
+        },
+        "Train": {
+            "Loss": 0.007012995891273022,
+            "MAE": 0.007012995891273022,
+            "MSE": 7.357387221418321e-05,
+            "MAPE": 7.903659343719482,
+            "RMSE": 0.008577520959079266
+        },
+        "Validation": {
+            "Loss": 0.0059122610837221146,
+            "MAE": 0.0059122610837221146,
+            "MSE": 5.4216416174313053e-05,
+            "MAPE": 0.6395991444587708,
+            "RMSE": 0.007363179698586464
+        },
+        "Test": {
+            "Loss": 0.006671472452580929,
+            "MAE": 0.006671472452580929,
+            "MSE": 8.281508053187281e-05,
+            "MAPE": 0.7258409857749939,
+            "RMSE": 0.009100278839468956
+        }
+    }
+}

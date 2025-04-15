@@ -1,0 +1,70 @@
+{
+    "EXPERIMENT_NUMBER": 1,
+    "SUB_EXPERIMENT_NUMBER": 6,
+    "MODEL_NAME": "Model_2",
+    "TRAINING_SIZE": 7602,
+    "VALIDATION_SIZE": 261,
+    "TESTING_SIZE": 129,
+    "RUN_MOMENT": "2025-04-14 23:16:47",
+    "INPUT_WINDOW_SIZE": 40,
+    "OUTPUT_WINDOW_SIZE": 5,
+    "BATCH_SIZE": 32,
+    "MAX_EPOCHS": 500,
+    "LEARNING_RATE": 0.01,
+    "PATIENCE": 10,
+    "RANDOM_SEED": 246,
+    "LOSS_FUNCTION": "MAE",
+    "COLUMNS_TO_USE": [
+        "IBOVESPA - Close %",
+        "IBOVESPA - High %",
+        "IBOVESPA - Low %",
+        "IBOVESPA - Open %"
+    ],
+    "COLUMN_TO_PREDICT": "IBOVESPA - Close %",
+    "TRAINING_TIME": "0h:3m:46s:505ms",
+    "TRAINING_EPOCHS": 32,
+    "Metrics": {
+        "Train_Repeat": {
+            "Loss": null,
+            "MAE": 0.024050775915384293,
+            "MSE": 0.0009069583611562848,
+            "MAPE": 7.7706122398376465,
+            "RMSE": 0.030115749686956406
+        },
+        "Validation_Repeat": {
+            "Loss": null,
+            "MAE": 0.017876142635941505,
+            "MSE": 0.00048549353959970176,
+            "MAPE": 5.599128723144531,
+            "RMSE": 0.022033918648958206
+        },
+        "Test_Repeat": {
+            "Loss": null,
+            "MAE": 0.02099556289613247,
+            "MSE": 0.0006891750963404775,
+            "MAPE": 6.381918430328369,
+            "RMSE": 0.02625214494764805
+        },
+        "Train": {
+            "Loss": 0.028610710054636,
+            "MAE": 0.028610710054636,
+            "MSE": 0.0017981970449909568,
+            "MAPE": 42211.64453125,
+            "RMSE": 0.042405154556035995
+        },
+        "Validation": {
+            "Loss": 0.012141592800617218,
+            "MAE": 0.012141592800617218,
+            "MSE": 0.0002327438851352781,
+            "MAPE": 3.753629684448242,
+            "RMSE": 0.015255945734679699
+        },
+        "Test": {
+            "Loss": 0.017211394384503365,
+            "MAE": 0.017211394384503365,
+            "MSE": 0.0005124306189827621,
+            "MAPE": 5.352443695068359,
+            "RMSE": 0.022636929526925087
+        }
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "EXPERIMENT_NUMBER": 1,
+    "SUB_EXPERIMENT_NUMBER": 8,
+    "MODEL_NAME": "Model_3",
+    "TRAINING_SIZE": 7602,
+    "VALIDATION_SIZE": 261,
+    "TESTING_SIZE": 129,
+    "RUN_MOMENT": "2025-04-14 20:11:53",
+    "INPUT_WINDOW_SIZE": 4,
+    "OUTPUT_WINDOW_SIZE": 1,
+    "BATCH_SIZE": 32,
+    "MAX_EPOCHS": 500,
+    "LEARNING_RATE": 0.01,
+    "PATIENCE": 10,
+    "RANDOM_SEED": 937,
+    "LOSS_FUNCTION": "MAE",
+    "COLUMNS_TO_USE": [
+        "IBOVESPA - Close",
+        "IBOVESPA - Close %",
+        "IBOVESPA - Spread %"
+    ],
+    "COLUMN_TO_PREDICT": "IBOVESPA - Close",
+    "TRAINING_TIME": "0h:0m:47s:691ms",
+    "TRAINING_EPOCHS": 28,
+    "Metrics": {
+        "Train_Repeat": {
+            "Loss": null,
+            "MAE": 0.006005511619150639,
+            "MSE": 6.263021350605413e-05,
+            "MAPE": 0.7072149515151978,
+            "RMSE": 0.007913925684988499
+        },
+        "Validation_Repeat": {
+            "Loss": null,
+            "MAE": 0.0,
+            "MSE": 0.0,
+            "MAPE": 0.0,
+            "RMSE": 0.0
+        },
+        "Test_Repeat": {
+            "Loss": null,
+            "MAE": 0.006717351730912924,
+            "MSE": 7.532560994150117e-05,
+            "MAPE": 0.7215718626976013,
+            "RMSE": 0.008679032325744629
+        },
+        "Train": {
+            "Loss": 0.01351814717054367,
+            "MAE": 0.01351814717054367,
+            "MSE": 0.00021791704057250172,
+            "MAPE": 14.645350456237793,
+            "RMSE": 0.014762013219296932
+        },
+        "Validation": {
+            "Loss": 0.005949303507804871,
+            "MAE": 0.005949303507804871,
+            "MSE": 5.4115404054755345e-05,
+            "MAPE": 0.6473713517189026,
+            "RMSE": 0.00735631724819541
+        },
+        "Test": {
+            "Loss": 0.007151885889470577,
+            "MAE": 0.007151885889470577,
+            "MSE": 8.808438724372536e-05,
+            "MAPE": 0.7818233370780945,
+            "RMSE": 0.009385328739881516
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "EXPERIMENT_NUMBER": 1,
+    "SUB_EXPERIMENT_NUMBER": 4,
+    "MODEL_NAME": "Model_2",
+    "TRAINING_SIZE": 7602,
+    "VALIDATION_SIZE": 261,
+    "TESTING_SIZE": 129,
+    "RUN_MOMENT": "2025-04-14 23:00:15",
+    "INPUT_WINDOW_SIZE": 40,
+    "OUTPUT_WINDOW_SIZE": 5,
+    "BATCH_SIZE": 32,
+    "MAX_EPOCHS": 500,
+    "LEARNING_RATE": 0.01,
+    "PATIENCE": 10,
+    "RANDOM_SEED": 246,
+    "LOSS_FUNCTION": "MAE",
+    "COLUMNS_TO_USE": [
+        "IBOVESPA - Close %"
+    ],
+    "COLUMN_TO_PREDICT": "IBOVESPA - Close %",
+    "TRAINING_TIME": "0h:2m:11s:610ms",
+    "TRAINING_EPOCHS": 18,
+    "Metrics": {
+        "Train_Repeat": {
+            "Loss": null,
+            "MAE": 0.024050775915384293,
+            "MSE": 0.0009069583611562848,
+            "MAPE": 7.7706122398376465,
+            "RMSE": 0.030115749686956406
+        },
+        "Validation_Repeat": {
+            "Loss": null,
+            "MAE": 0.017876142635941505,
+            "MSE": 0.00048549353959970176,
+            "MAPE": 5.599128723144531,
+            "RMSE": 0.022033918648958206
+        },
+        "Test_Repeat": {
+            "Loss": null,
+            "MAE": 0.02099556289613247,
+            "MSE": 0.0006891750963404775,
+            "MAPE": 6.381918430328369,
+            "RMSE": 0.02625214494764805
+        },
+        "Train": {
+            "Loss": 0.028966641053557396,
+            "MAE": 0.028966641053557396,
+            "MSE": 0.0018199201440438628,
+            "MAPE": 41976.546875,
+            "RMSE": 0.04266052320599556
+        },
+        "Validation": {
+            "Loss": 0.012634233571588993,
+            "MAE": 0.012634233571588993,
+            "MSE": 0.00025004404596984386,
+            "MAPE": 3.8822832107543945,
+            "RMSE": 0.01581278070807457
+        },
+        "Test": {
+            "Loss": 0.017747217789292336,
+            "MAE": 0.017747217789292336,
+            "MSE": 0.0005320408381521702,
+            "MAPE": 5.483529090881348,
+            "RMSE": 0.02306601032614708
+        }
+    }
+}

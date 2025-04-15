@@ -1,0 +1,67 @@
+{
+    "EXPERIMENT_NUMBER": 1,
+    "SUB_EXPERIMENT_NUMBER": 1,
+    "MODEL_NAME": "Model_1",
+    "TRAINING_SIZE": 7603,
+    "VALIDATION_SIZE": 261,
+    "TESTING_SIZE": 129,
+    "RUN_MOMENT": "2025-04-14 23:51:35",
+    "INPUT_WINDOW_SIZE": 40,
+    "OUTPUT_WINDOW_SIZE": 5,
+    "BATCH_SIZE": 32,
+    "MAX_EPOCHS": 500,
+    "LEARNING_RATE": 0.01,
+    "PATIENCE": 10,
+    "RANDOM_SEED": 26,
+    "LOSS_FUNCTION": "MAE",
+    "COLUMNS_TO_USE": [
+        "IBOVESPA - Close"
+    ],
+    "COLUMN_TO_PREDICT": "IBOVESPA - Close",
+    "TRAINING_TIME": "0h:2m:46s:511ms",
+    "TRAINING_EPOCHS": 34,
+    "Metrics": {
+        "Train_Repeat": {
+            "Loss": null,
+            "MAE": 0.012225615791976452,
+            "MSE": 0.00023065709683578461,
+            "MAPE": 1.4550572633743286,
+            "RMSE": 0.015187399461865425
+        },
+        "Validation_Repeat": {
+            "Loss": null,
+            "MAE": 0.008867786265909672,
+            "MSE": 0.00012879814312327653,
+            "MAPE": 0.9110598564147949,
+            "RMSE": 0.011348927393555641
+        },
+        "Test_Repeat": {
+            "Loss": null,
+            "MAE": 0.013968420214951038,
+            "MSE": 0.0004119221994187683,
+            "MAPE": 1.4911150932312012,
+            "RMSE": 0.020295865833759308
+        },
+        "Train": {
+            "Loss": 0.023712698370218277,
+            "MAE": 0.023712698370218277,
+            "MSE": 0.0007068462437018752,
+            "MAPE": 22.751195907592773,
+            "RMSE": 0.026586581021547318
+        },
+        "Validation": {
+            "Loss": 0.010560926049947739,
+            "MAE": 0.010560926049947739,
+            "MSE": 0.00018295610789209604,
+            "MAPE": 1.122922420501709,
+            "RMSE": 0.013526126742362976
+        },
+        "Test": {
+            "Loss": 0.012411120347678661,
+            "MAE": 0.012411120347678661,
+            "MSE": 0.0002814017643686384,
+            "MAPE": 1.3535398244857788,
+            "RMSE": 0.016775032505393028
+        }
+    }
+}

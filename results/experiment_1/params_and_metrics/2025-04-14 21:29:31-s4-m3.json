@@ -1,0 +1,67 @@
+{
+    "EXPERIMENT_NUMBER": 1,
+    "SUB_EXPERIMENT_NUMBER": 4,
+    "MODEL_NAME": "Model_3",
+    "TRAINING_SIZE": 7602,
+    "VALIDATION_SIZE": 261,
+    "TESTING_SIZE": 129,
+    "RUN_MOMENT": "2025-04-14 21:29:31",
+    "INPUT_WINDOW_SIZE": 40,
+    "OUTPUT_WINDOW_SIZE": 5,
+    "BATCH_SIZE": 32,
+    "MAX_EPOCHS": 500,
+    "LEARNING_RATE": 0.01,
+    "PATIENCE": 10,
+    "RANDOM_SEED": 280,
+    "LOSS_FUNCTION": "MAE",
+    "COLUMNS_TO_USE": [
+        "IBOVESPA - Close %"
+    ],
+    "COLUMN_TO_PREDICT": "IBOVESPA - Close %",
+    "TRAINING_TIME": "0h:3m:43s:302ms",
+    "TRAINING_EPOCHS": 26,
+    "Metrics": {
+        "Train_Repeat": {
+            "Loss": null,
+            "MAE": 0.024050775915384293,
+            "MSE": 0.0009069583611562848,
+            "MAPE": 7.7706122398376465,
+            "RMSE": 0.030115749686956406
+        },
+        "Validation_Repeat": {
+            "Loss": null,
+            "MAE": 0.017876142635941505,
+            "MSE": 0.00048549353959970176,
+            "MAPE": 5.599128723144531,
+            "RMSE": 0.022033918648958206
+        },
+        "Test_Repeat": {
+            "Loss": null,
+            "MAE": 0.02099556289613247,
+            "MSE": 0.0006891750963404775,
+            "MAPE": 6.381918430328369,
+            "RMSE": 0.02625214494764805
+        },
+        "Train": {
+            "Loss": 0.02893100678920746,
+            "MAE": 0.02893100678920746,
+            "MSE": 0.0018166085937991738,
+            "MAPE": 42207.96484375,
+            "RMSE": 0.04262169077992439
+        },
+        "Validation": {
+            "Loss": 0.012613076716661453,
+            "MAE": 0.012613076716661453,
+            "MSE": 0.0002493132196832448,
+            "MAPE": 3.879307270050049,
+            "RMSE": 0.015789655968546867
+        },
+        "Test": {
+            "Loss": 0.017649833112955093,
+            "MAE": 0.017649833112955093,
+            "MSE": 0.0005300850607454777,
+            "MAPE": 5.4581522941589355,
+            "RMSE": 0.0230235755443573
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "EXPERIMENT_NUMBER": 1,
+    "SUB_EXPERIMENT_NUMBER": 1,
+    "MODEL_NAME": "Model_2",
+    "TRAINING_SIZE": 7603,
+    "VALIDATION_SIZE": 261,
+    "TESTING_SIZE": 129,
+    "RUN_MOMENT": "2025-04-14 21:03:11",
+    "INPUT_WINDOW_SIZE": 40,
+    "OUTPUT_WINDOW_SIZE": 5,
+    "BATCH_SIZE": 32,
+    "MAX_EPOCHS": 500,
+    "LEARNING_RATE": 0.01,
+    "PATIENCE": 10,
+    "RANDOM_SEED": 280,
+    "LOSS_FUNCTION": "MAE",
+    "COLUMNS_TO_USE": [
+        "IBOVESPA - Close"
+    ],
+    "COLUMN_TO_PREDICT": "IBOVESPA - Close",
+    "TRAINING_TIME": "0h:1m:49s:883ms",
+    "TRAINING_EPOCHS": 12,
+    "Metrics": {
+        "Train_Repeat": {
+            "Loss": null,
+            "MAE": 0.012225615791976452,
+            "MSE": 0.00023065709683578461,
+            "MAPE": 1.4550572633743286,
+            "RMSE": 0.015187399461865425
+        },
+        "Validation_Repeat": {
+            "Loss": null,
+            "MAE": 0.008867786265909672,
+            "MSE": 0.00012879814312327653,
+            "MAPE": 0.9110598564147949,
+            "RMSE": 0.011348927393555641
+        },
+        "Test_Repeat": {
+            "Loss": null,
+            "MAE": 0.013968420214951038,
+            "MSE": 0.0004119221994187683,
+            "MAPE": 1.4911150932312012,
+            "RMSE": 0.020295865833759308
+        },
+        "Train": {
+            "Loss": 0.522612988948822,
+            "MAE": 0.522612988948822,
+            "MSE": 0.33997324109077454,
+            "MAPE": 614.9183959960938,
+            "RMSE": 0.5830722451210022
+        },
+        "Validation": {
+            "Loss": 0.09943971782922745,
+            "MAE": 0.09943971782922745,
+            "MSE": 0.011017205193638802,
+            "MAPE": 10.591340065002441,
+            "RMSE": 0.10496287792921066
+        },
+        "Test": {
+            "Loss": 0.08338426798582077,
+            "MAE": 0.08338426798582077,
+            "MSE": 0.008079193532466888,
+            "MAPE": 9.137721061706543,
+            "RMSE": 0.08988433331251144
+        }
+    }
+}
