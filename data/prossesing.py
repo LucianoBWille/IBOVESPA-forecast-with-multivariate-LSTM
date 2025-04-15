@@ -177,3 +177,24 @@ normalized_df.to_csv("2 - processed/normalized_data.csv", index=True)
 
 print("Normalized Data: ")
 print(normalized_df.head())
+
+# replace values from variation columns on normalized_df with the original values from variation_df
+for col in variation_df.columns:
+    # Check if the column exists in normalized_df
+    if col in normalized_df.columns:
+        # Replace the values in normalized_df with the original values from variation_df
+        normalized_df[col] = variation_df[col]
+    else:
+        print(f"Column {col} not found in normalized_df.")
+
+# fill NaN values with 0
+normalized_df = normalized_df.replace([np.inf, -np.inf], np.nan)
+# Coerce to numeric
+normalized_df = normalized_df.apply(pd.to_numeric, errors='coerce')
+# Fill NaN values with forward fill
+normalized_df = normalized_df.ffill()
+# fill all remaining NaN values with 0
+normalized_df = normalized_df.fillna(0)
+
+# Save the final normalized data with variation values
+normalized_df.to_csv("2 - processed/normalized_data_with_variation.csv", index=True)
